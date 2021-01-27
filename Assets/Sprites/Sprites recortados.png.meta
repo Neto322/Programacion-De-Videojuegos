@@ -14,6 +14,24 @@ TextureImporter:
   - first:
       213: -6400871234811040293
     second: Sprites recortados_3
+  - first:
+      213: -3428642392071397991
+    second: Sprites recortados_4
+  - first:
+      213: -8418529813388216982
+    second: Sprites recortados_5
+  - first:
+      213: -6074756772028345309
+    second: Sprites recortados_6
+  - first:
+      213: 4203665933537586688
+    second: Sprites recortados_7
+  - first:
+      213: 6360551760713771893
+    second: Sprites recortados_8
+  - first:
+      213: 7060785135911710205
+    second: Sprites recortados_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -218,7 +236,7 @@ TextureImporter:
         width: 13
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,6 +244,132 @@ TextureImporter:
       bones: []
       spriteID: bdd621476898b27a0800000000000000
       internalID: -6400871234811040293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites recortados_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 216
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d1dbef8e30b60d0800000000000000
+      internalID: -3428642392071397991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites recortados_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 216
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65b5fdecbf5b2b80800000000000000
+      internalID: -8418529813388216982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites recortados_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 216
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3241a5ab6e022bba0800000000000000
+      internalID: -6074756772028345309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites recortados_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 338
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b64d07028354850800000000000000
+      internalID: 6360551760713771893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites recortados_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 362
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e2be205eb665a30800000000000000
+      internalID: 4203665933537586688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites recortados_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 314
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd2065eba2fcf160800000000000000
+      internalID: 7060785135911710205
       vertices: []
       indices: 
       edges: []
