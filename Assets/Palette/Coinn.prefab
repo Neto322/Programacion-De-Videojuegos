@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5599052155633532653}
   - component: {fileID: 5599052155633532626}
   - component: {fileID: 5599052155633532627}
+  - component: {fileID: 8002991459064654465}
   m_Layer: 0
   m_Name: Coinn
   m_TagString: Coin
@@ -120,9 +121,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.06439805, y: 0.027320504}
   m_SpriteTilingProperty:
-    border: {x: 0.096, y: 0.09200001, z: 0.28, w: 0}
+    border: {x: 0.08, y: 0.07666667, z: 0.23333333, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5, y: 1.5}
+    oldSize: {x: 1.25, y: 1.25}
     newSize: {x: 1.5, y: 1.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -131,3 +132,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7853389, y: 1.0078056}
   m_EdgeRadius: 0
+--- !u!114 &8002991459064654465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5599052155633532624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5feef80f33dc94044be2f12ef10a0191, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
