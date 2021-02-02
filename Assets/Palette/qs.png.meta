@@ -1,37 +1,25 @@
 fileFormatVersion: 2
-guid: 831fcad434cf2a04595f158c86b67d6d
+guid: 7e88befd2a2935349bb47750a9351274
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9061552093682087267
-    second: Sprites recortados_0
+      213: -6616044178057299395
+    second: qs_0
   - first:
-      213: -4547470318176077408
-    second: Sprites recortados_1
+      213: 7830640864429658543
+    second: qs_1
   - first:
-      213: -6553036102214363453
-    second: Sprites recortados_2
+      213: -8418930783226236694
+    second: qs_2
   - first:
-      213: -6400871234811040293
-    second: Sprites recortados_3
+      213: 2033600846544692043
+    second: qs_3
   - first:
-      213: -3428642392071397991
-    second: Sprites recortados_4
+      213: 5096684249823555104
+    second: qs_4
   - first:
-      213: -8418529813388216982
-    second: Sprites recortados_5
-  - first:
-      213: -6074756772028345309
-    second: Sprites recortados_6
-  - first:
-      213: 4203665933537586688
-    second: Sprites recortados_7
-  - first:
-      213: 6360551760713771893
-    second: Sprites recortados_8
-  - first:
-      213: 7060785135911710205
-    second: Sprites recortados_9
+      213: -2220506307878530485
+    second: qs_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -76,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +122,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -153,176 +141,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 8192
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprites recortados_0
+      name: qs_0
       rect:
         serializedVersion: 2
-        x: 210
-        y: 408
-        width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9ac1668166ee3280800000000000000
-      internalID: -9061552093682087267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites recortados_1
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 408
-        width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a97b72d6d324e0c0800000000000000
-      internalID: -4547470318176077408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites recortados_2
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 409
-        width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c6d33f6260fe05a0800000000000000
-      internalID: -6553036102214363453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites recortados_3
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 408
-        width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdd621476898b27a0800000000000000
-      internalID: -6400871234811040293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites recortados_4
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 216
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99d1dbef8e30b60d0800000000000000
-      internalID: -3428642392071397991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites recortados_5
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 216
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a65b5fdecbf5b2b80800000000000000
-      internalID: -8418529813388216982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites recortados_6
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 216
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3241a5ab6e022bba0800000000000000
-      internalID: -6074756772028345309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites recortados_8
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 338
-        width: 14
-        height: 19
+        x: 163
+        y: 94
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57b64d07028354850800000000000000
-      internalID: 6360551760713771893
+      spriteID: d3a7a949fd61f24a0800000000000000
+      internalID: -6616044178057299395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites recortados_7
+      name: qs_1
       rect:
         serializedVersion: 2
-        x: 129
-        y: 362
-        width: 14
-        height: 19
+        x: 180
+        y: 94
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00e2be205eb665a30800000000000000
-      internalID: 4203665933537586688
+      spriteID: fa1dcffa0660cac60800000000000000
+      internalID: 7830640864429658543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites recortados_9
+      name: qs_2
       rect:
         serializedVersion: 2
-        x: 129
-        y: 314
-        width: 14
-        height: 19
+        x: 197
+        y: 94
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,8 +201,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfd2065eba2fcf160800000000000000
-      internalID: 7060785135911710205
+      spriteID: ae0f23dde03f92b80800000000000000
+      internalID: -8418930783226236694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qs_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43ea39023dc83c10800000000000000
+      internalID: 2033600846544692043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qs_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eaf03625f0bb640800000000000000
+      internalID: 5096684249823555104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qs_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42d269174d2f21e0800000000000000
+      internalID: -2220506307878530485
       vertices: []
       indices: 
       edges: []

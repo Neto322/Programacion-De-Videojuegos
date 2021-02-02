@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MarioControl : MonoBehaviour
 {
@@ -31,6 +32,10 @@ public class MarioControl : MonoBehaviour
 
     float a;
 
+    [SerializeField]
+    Text score;
+
+    float count = 0;
     void Awake()
     {
         anim = GetComponent<Animator>();
@@ -61,7 +66,6 @@ public class MarioControl : MonoBehaviour
 
         if(Grounded)
         {
-            Debug.Log("Ground");
 
             anim.SetBool("Move", true);
 
@@ -84,8 +88,8 @@ public class MarioControl : MonoBehaviour
 
         }
 
-        
 
+        score.text = "Puntuacion " + count;
     }
 
     private void LateUpdate()
@@ -129,6 +133,16 @@ public class MarioControl : MonoBehaviour
         Gizmos.color = rayColor;
 
         Gizmos.DrawRay(transform.position, Vector2.down * raydistance);
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Coin")
+        {
+            count++;
+            Destroy(collision.gameObject);
+        }
     }
 }
 
