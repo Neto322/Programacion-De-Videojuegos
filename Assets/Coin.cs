@@ -5,6 +5,6 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     [SerializeField]
-    int value;
+    public int value;
 
 }   

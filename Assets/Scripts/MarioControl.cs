@@ -36,6 +36,9 @@ public class MarioControl : MonoBehaviour
     Text score;
 
     float count = 0;
+
+    [SerializeField]
+    GameManager manager;
     void Awake()
     {
         anim = GetComponent<Animator>();
@@ -140,7 +143,8 @@ public class MarioControl : MonoBehaviour
     {
         if(collision.gameObject.tag == "Coin")
         {
-            count++;
+            Coin coin = collision.GetComponent<Coin>();
+            manager.AddScore(coin.value);
             Destroy(collision.gameObject);
         }
     }
