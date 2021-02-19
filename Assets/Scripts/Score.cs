@@ -5,19 +5,18 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-    TextMeshProUGUI scoretext;
+   TextMeshProUGUI txtScore;
 
-    int currentpoints;
-    void Start()
-    {
-        scoretext = GetComponent<TextMeshProUGUI>();
-        AddPoints(currentpoints);
-    }
+   int currentPoints;
+
+   void Awake()
+   {
+       txtScore = GetComponent<TextMeshProUGUI>();
+   }
 
     public void AddPoints(int points)
-
     {
-        currentpoints += points;
-        scoretext.text = "<b>Score:</b>  <color=#ffff> " + currentpoints + " </color>";
+        currentPoints += points;
+        txtScore.text = $"<b>Score:</b> <color=#ff851b>{currentPoints} pts</color>";
     }
 }

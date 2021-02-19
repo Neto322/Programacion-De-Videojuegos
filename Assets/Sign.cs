@@ -6,13 +6,13 @@ using TMPro;
 public class Sign : MonoBehaviour
 {
     [SerializeField]
-    Message msg;
+    Warning msg;
 
     [SerializeField]
     TextMeshPro signtext;
     private void Awake()
     {
-        signtext.text = msg.message;
+        signtext.text = msg.Message;
     }
 
     private void Update()
@@ -20,7 +20,7 @@ public class Sign : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Choque");
         signtext.gameObject.SetActive(true);
