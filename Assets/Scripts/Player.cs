@@ -27,14 +27,13 @@ public class Player : PlayerController2D
 
     void Update()
     {
-
+        Debug.Log(IsGrounding);
     }
 
     void Jump()
     {
         if(IsGrounding)
         {
-            anim.SetTrigger("jump");
 
             rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
@@ -46,14 +45,31 @@ public class Player : PlayerController2D
     {
         
         AddForceMovement(moveSpeed);
-
+        
       
 
     }
 
     void LateUpdate() 
     {
+        if(IsGrounding)
+        {
+            anim.SetBool("Move",true);
+
+        }
+        if(!IsGrounding)
+        {
+            anim.SetBool("Move",false);
+
+        }
         spr.flipX = flipSprite; 
+     
+        anim.SetBool("Move",true);
+        
+        anim.SetFloat("moveX",Mathf.Abs(playerControls.Gameplay.Movement.ReadValue<Vector2>().x));   
+
+            anim.SetFloat("velocityY",rb2D.velocity.y);
+        
 
     }
 

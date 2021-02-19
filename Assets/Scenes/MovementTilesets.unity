@@ -5073,7 +5073,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1530264236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14b37545079cc2048870ead3830e86c3, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ad97d968caf0aa409fac30b46017321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   groundFilter:
@@ -5087,12 +5087,12 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 256
     minDepth: 0
-    maxDepth: 145
+    maxDepth: 1
     minNormalAngle: 0
-    maxNormalAngle: 0
-  maxVelX: 5
-  moveSpeed: 10
-  jumpForce: 6.31
+    maxNormalAngle: 145
+  maxVelX: 3
+  moveSpeed: 7.63
+  jumpForce: 6.3
 --- !u!4 &1532975819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5599052155633532652, guid: fe59aae2cf1670145959ac296f709997,
